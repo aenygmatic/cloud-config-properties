@@ -1,0 +1,9 @@
+server:
+    port: 80
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://v2-andromeda-eureka.grc-apps.svc.ice.ge.com:80/eureka/
+  instance:
+    hostname: '${CF_INSTANCE_ADDR}'
+    nonSecurePort: 80
