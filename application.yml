@@ -1,5 +1,9 @@
 server:
     port: 80
+
+---
+spring:
+  profiles: cloudfoundry
 eureka:
   client:
     serviceUrl:
