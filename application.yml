@@ -1,8 +1,8 @@
 server:
     port: 80
----
-spring:
-  profiles: cloud
+#---
+#spring:
+#  profiles: cloud
 eureka:
   client:
     serviceUrl:
