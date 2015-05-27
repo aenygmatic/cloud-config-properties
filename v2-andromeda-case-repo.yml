@@ -1,2 +1,2 @@
 andromeda:
-  variable: This is loaded from github (file name: v2-andromeda-case-repo.yml)
+  variable: 'This is loaded from github (file name: v2-andromeda-case-repo.yml)'
