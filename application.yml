@@ -8,5 +8,5 @@ eureka:
     serviceUrl:
       defaultZone: http://v2-andromeda-eureka.grc-apps.svc.ice.ge.com:80/eureka/
   instance:
-    hostname: ${vcap.application.application_uris[0]}
+    hostname: '${vcap.application.application_uris[0]}'
     nonSecurePort: 80
