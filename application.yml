@@ -8,6 +8,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://v2-andromeda-eureka.grc-apps.svc.ice.ge.com:80/eureka/
+
+---
+spring:
+  profiles: cloudfoundry
+eureka:
   instance:
     hostname: '${vcap.application.application_uris[0]}'
     nonSecurePort: 80
