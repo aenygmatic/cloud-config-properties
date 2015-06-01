@@ -16,3 +16,11 @@ eureka:
   instance:
     hostname: '${vcap.application.application_uris[0]}'
     nonSecurePort: 80
+    
+---
+spring:
+  profiles: test
+eureka:
+  instance:
+    hostname: '${vcap.application.application_uris[0]}'
+    nonSecurePort: 80
