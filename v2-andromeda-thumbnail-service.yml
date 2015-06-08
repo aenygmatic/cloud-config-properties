@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+thumbnail:
+  dimensions:
+  - '20x20'
