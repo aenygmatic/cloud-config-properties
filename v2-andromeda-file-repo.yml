@@ -3,3 +3,7 @@ spring:
     generate-ddl: true
     hibernate:
       ddl-auto: update
+
+thumbnail:
+  dimensions:
+  - '150x150'
