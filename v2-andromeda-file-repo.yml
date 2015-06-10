@@ -6,4 +6,4 @@ spring:
 
 thumbnail:
   dimensions:
-  - '150x150'
+   - '150x150'
